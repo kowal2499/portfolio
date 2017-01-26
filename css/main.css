@@ -1,0 +1,330 @@
+/* ==========================================================================
+   Main and general
+   ========================================================================== */
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+}
+
+.row {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+/*.left-panel {
+  position: fixed;
+  width: 30%;
+  background-color: #fff;
+  bottom: 0px;
+  top: 0px;
+}*/
+
+.left-content {
+  padding-top: 30px;
+  /*background-color: #efe;*/
+  /*position: fixed;*/
+  /*width: 200px;*/
+  /*margin: 0 auto;*/
+  /*width: 100%;*/
+}
+
+/*.right-panel {
+  position: relative;
+  background-color: #fff;
+  width: 50%;
+  left: 30%;; 
+}*/
+
+@media screen and (max-width: 768px) {
+/*    .left-content {
+        width: 100%;
+        margin-right: 0px;
+    }
+*/
+    .hamburger {
+        display: inline !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .left-panel {
+        display: none;
+    }
+    /*.left-content {
+        display: none;
+    }*/
+
+    .right-panel {
+        width: 100%;
+        left: 0;
+        right: auto;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* ==========================================================================
+   Section: projects-v2
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Section: projects
+   ========================================================================== */
+
+
+article {
+   /*margin-left: 0;*/
+}
+
+#projects {
+  background: url('../img/bckgrnd/random_grey_variations.png') repeat;
+  background-attachment: fixed;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+
+#projects ul.full-page-imgs {
+  display: none;
+}
+
+#projects ul.full-page-imgs li {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+#projects .item {
+  width: 100%;
+  height: 400px;
+  margin: 5px;
+
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+
+.item:hover .description {
+  opacity: 1;
+}
+
+#projects .information-area {
+  width: 80%;
+  text-align: right;
+  color: #eee;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  padding-right: 10px;
+  font-style: italic;
+  border-right: 4px solid white;
+
+}
+
+/* ==========================================================================
+   Section: tools
+   ========================================================================== */
+
+#tools {
+
+  background-color: #f8f8f8;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+nav {
+    text-align: center;
+}
+
+nav p {
+    border: 2px solid #555555;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+
+
+nav img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+nav ul {
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    
+}
+
+
+nav li.selected a, 
+nav li a:hover, 
+nav li a:visited {
+    border-bottom: 2px solid #555555;
+    color: #555555;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+nav li a {
+    color: #555555;
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    width: 80px;
+    text-align: center;
+
+}
+
+hr {
+    width: 80%;
+    height: 3px;
+    background-color: #225560;
+    border: none;
+}
+
+h3.title {
+    padding: 10px;
+    color: #225560;
+    background-color: #fff;
+    font-size: 2.0em;
+    letter-spacing: 4px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    display: inline-block;
+    position: relative;
+    border-top: 4px solid #ECA72C;
+    
+  }
+
+  button {
+    padding: 10px;
+    margin: 0;
+}
+
+p {
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.7em;
+
+    width: 75%;
+    margin: 20px auto;
+  }
+
+
+
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+
+#contact {
+  border-top: 1px solid #ddd;
+  background: url('../img/code.jpg') no-repeat;
+  background-size:cover;
+}
+
+#contact form {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#contact button {
+  min-width: 100px;
+  /*margin: 5px;*/
+  padding: 5px;
+  border: 1px solid #ccc;
+  background: none;
+  color: #333;
+  /*border-radius: 0px;*/
+}
+
+#contact button:hover {
+  background: #ECA72C;
+  color: #222;
+}
+
+#contact p {
+  margin: 5px auto;
+}
+
+#contact .alert {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Social-icons
+   ========================================================================== */
+
+#social-icons {
+  text-align: center;
+  color: #44355B;
+  border-top: 2px dashed #225560;
+  padding-top: 10px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#social-icons a {
+  text-decoration: none;
+  color: #44355B;
+  transition: all 0.3s;
+}
+
+#social-icons a:hover {
+  color: #ECA72C;
+}
+#social-icons .fa {
+  margin: 5px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+footer img {
+  height: 30px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
