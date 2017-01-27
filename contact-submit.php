@@ -27,25 +27,17 @@
     if ($error) {
                 $result = '<div class="alert alert-danger">'.'Wystąpiły błędy podczas przetwarzania danych formularza:'.'<strong><br>'. $error .'</strong></div>';
     } else {
-
-
-
         require 'phpmailer/PHPMailerAutoload.php';
-
         $mail = new PHPMailer;
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'mail.erla.pl';                       // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'automailer@erla.pl';         // SMTP username
-        $mail->Password = '2,JFn:(j,y5D@eSJ';                       // SMTP password
+        $mail->Username = 'automailer@erla.pl';               // SMTP username
+        $mail->Password = '';// enter your password here
         $mail->Port = 587;                                    // TCP port to connect to
 
         $mail->setFrom($_POST["email"]);
-        // // $mail->addAddress('kowal2499@gmail.com');     // Add a recipient
-        $mail->addAddress('roman@erla.pl');     // Add a recipient
-        
-        // $mail->addAddress('webmaster@sobczak.com.pl');               // Name is optional
-
+        $mail->addAddress('roman@erla.pl');                     // Add a recipient
         $mail->isHTML(false);                                  // Set email format to HTML
         $mail->CharSet = "UTF-8";
 
@@ -53,13 +45,9 @@
         $mail->Body    = nl2br($_POST["txtarea"]);
         $mail->AltBody = nl2br($_POST["txtarea"]);
 
-        // if (isset($_FILES['userFile']) && $_FILES['userFile']['error'] == UPLOAD_ERR_OK) {
-        //     $mail->AddAttachment($_FILES['userFile']['tmp_name'], $_FILES['userFile']['name']);
-        // }
-
         if(!$mail->send()) {
 
-            $result = '<div class="alert alert-danger">'.getTranslation('contact-28', 'sosna').'</div>';
+            $result = '<div class="alert alert-danger">'.'Wystąpił błąd podczas wysyłania wiadomości'.'</div>';
         } else {
 
             $result = '<div class="alert alert-success">'."Wiadomość została wysłana - dziękuję.".'</div>';
