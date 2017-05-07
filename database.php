@@ -16,7 +16,7 @@ $projectsArray = array(
 	array("title" => "Centrum Psychoterapii - Trzy Wymiary", 
 		  "date" => "12/2016",
 		  "image" => "img/gallery/3w.jpg",
-		  "href" => "http://www.trzy-wymiary.pl",
+		  "href" => "http://www.psycholog-bialystok.pl",
 		  "desc" => "Strona internetowa dla centrum psychoterapii z Białegostoku. Przedstawienie firmy i kluczowych punktów jej oferty wraz z danymi kontaktowymi zatrudnionych specjalistów.<br><br>Technologie: WordPress (własny szablon)",
 		  "fullpageimgs" => array(
 		  		"img/gallery/trzy-wymiary01.jpg",
@@ -39,7 +39,7 @@ $projectsArray = array(
 	array("title" => "Poradnia Psychologiczno-Pedagogiczna w Białogardzie, wersja 2", 
 		  "image" => "img/gallery/poradnia-new00.jpg",
 		  "date" => "04/2016",
-		  "href" => "http://www.psycholog.hekko24.pl",
+		  "href" => "http://www.ppp-bialogard.hekko24.pl",
 		  "desc" => "Nowa wersja strony Poradni Psychologiczno-Pedagogicznej w Białogardzie. Zmodyfikowany wygląd, ułatwiona administracja treścią dzięki osadzeniu strony na platformie WordPress.<br><br>Technologie: WordPress (własny szablon).",
 		  "fullpageimgs" => array(
 		  		"img/gallery/poradnia-new01.jpg",
