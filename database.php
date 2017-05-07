@@ -2,6 +2,17 @@
 $projectsArray = array(
 
 
+	array("title" => "Apartament AQUA - strona w budowie", 
+		  "date" => "04/2017",
+		  "image" => "img/gallery/aqua01-thumb.jpg",
+		  "href" => "http://www.aqua-projekt.hekko24.pl",
+		  "desc" => "(w budowie) Strona wizytówka dla nadmorskiego apartamentu. Galeria, opisy, kalendarz dostępności. Obsługa kilku wersji językowych. Zarządzanie treścią oparte na Wordpress.",
+		  "fullpageimgs" => array(
+		  		"img/gallery/aqua01.jpg",
+		  		"img/gallery/aqua02.jpg",
+		  		"img/gallery/aqua03.jpg"
+		  )),
+
 	array("title" => "Centrum Psychoterapii - Trzy Wymiary", 
 		  "date" => "12/2016",
 		  "image" => "img/gallery/3w.jpg",
