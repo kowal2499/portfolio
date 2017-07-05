@@ -40,7 +40,7 @@
                 ?></textarea>
 
              <!-- <div class="col-sm-2"> -->
-	            <button type="submit" name="submit" id="submitBtn" class="form-control text-center">Wyślij&nbsp;&nbsp;<i class="fa fa-send-o" aria-hidden="true"></i></button>
+	            <button type="submit" name="submit" id="submitBtn" class="form-control text-center" value="submit">Wyślij&nbsp;&nbsp;<i class="fa fa-send-o" aria-hidden="true"></i></button>
 	        <!-- </div> -->
 	    	</div>
 	    </div>
