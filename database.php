@@ -2,11 +2,11 @@
 $projectsArray = array(
 
 
-	array("title" => "Apartament AQUA - strona w budowie", 
-		  "date" => "04/2017",
+	array("title" => "Apartament AQUA - Ustronie Morskie", 
+		  "date" => "06/2017",
 		  "image" => "img/gallery/aqua01-thumb.jpg",
-		  "href" => "http://www.aqua-projekt.hekko24.pl",
-		  "desc" => "(w budowie) Strona wizytówka dla nadmorskiego apartamentu. Galeria, opisy, kalendarz dostępności. Obsługa kilku wersji językowych. Zarządzanie treścią oparte na Wordpress.",
+		  "href" => "http://www.apartamentaqua.pl/",
+		  "desc" => "Strona wizytówka dla nadmorskiego apartamentu. Galeria, opisy, kalendarz dostępności. Obsługa kilku wersji językowych. Zarządzanie treścią oparte na Wordpress.",
 		  "fullpageimgs" => array(
 		  		"img/gallery/aqua01.jpg",
 		  		"img/gallery/aqua02.jpg",
@@ -16,7 +16,7 @@ $projectsArray = array(
 	array("title" => "Centrum Psychoterapii - Trzy Wymiary", 
 		  "date" => "12/2016",
 		  "image" => "img/gallery/3w.jpg",
-		  "href" => "http://www.trzy-wymiary.pl",
+		  "href" => "http://www.projekt-trzy.hekko24.pl/",
 		  "desc" => "Strona internetowa dla centrum psychoterapii z Białegostoku. Przedstawienie firmy i kluczowych punktów jej oferty wraz z danymi kontaktowymi zatrudnionych specjalistów.<br><br>Technologie: WordPress (własny szablon)",
 		  "fullpageimgs" => array(
 		  		"img/gallery/trzy-wymiary01.jpg",

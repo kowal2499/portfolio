@@ -12,7 +12,7 @@
 	<form method="POST" action="index.php#contact" enctype="multipart/form-data" class="form-horizontal">
 	    <div class="form-group" style="padding: 10px; margin: 0px;">
 
-	        <div class="col-sm-10">
+	        <div class="col-sm-12">
 	        <div class="input-group margin-bottom-sm">
 	        	<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
 	            <input type="email" name="email" class="form-control" placeholder="Twój email:" value="<?php
@@ -25,9 +25,7 @@
                 ?>">
 	        </div>
 	        </div>
-	        <div class="col-sm-2">
-	            <button type="submit" name="submit" class="form-control" value="send">Wyślij&nbsp;&nbsp;<i class="fa fa-send-o" aria-hidden="true"></i></button>
-	        </div>
+	        
 	    </div>
 
 	    <div class="form-group" style="padding: 10px; margin: 0px;">
@@ -40,6 +38,10 @@
                             }
                         }
                 ?></textarea>
+
+             <!-- <div class="col-sm-2"> -->
+	            <button type="submit" name="submit" id="submitBtn" class="form-control text-center">Wyślij&nbsp;&nbsp;<i class="fa fa-send-o" aria-hidden="true"></i></button>
+	        <!-- </div> -->
 	    	</div>
 	    </div>
 

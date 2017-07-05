@@ -265,8 +265,8 @@ p {
   /*border-radius: 0px;*/
 }
 
-#contact button:hover {
-  background: #ECA72C;
+#contact #submitBtn:hover {
+  background: #ECA72C !important;
   color: #222;
 }
 
@@ -277,6 +277,12 @@ p {
 #contact .alert {
   width: 70%;
   margin: 0 auto;
+}
+
+#submitBtn {
+  background-color: #fff !important;
+  max-width: 100px; 
+  margin: 15px auto;
 }
 
 /* ==========================================================================
