@@ -13,6 +13,16 @@ $projectsArray = array(
 		  		"img/gallery/aqua03.jpg"
 		  )),
 
+	array("title" => "PROSFEL - Mobilny Serwis Opon", 
+		  "date" => "08/2017",
+		  "image" => "img/gallery/prosfel-thumb.jpg",
+		  "href" => "http://www.prosfel.pl/",
+		  "desc" => "Strona wizytówka dla firmy z branży oponiarskiej. Opis mocnych stron, galeria i inne podstawowe informacje podane w zwięzłej i czytelnej formie.",
+		  "fullpageimgs" => array(
+		  		"img/gallery/prosfel01.jpg",
+		  		"img/gallery/prosfel02.jpg"
+		  )),
+
 	array("title" => "Centrum Psychoterapii - Trzy Wymiary", 
 		  "date" => "12/2016",
 		  "image" => "img/gallery/3w.jpg",
@@ -58,8 +68,6 @@ $projectsArray = array(
 		  		"img/gallery/sobczak03.jpg"
 		  )),
 
-	
-
 	array("title" => "Hurtownia Monopolowa AS w Białogardzie", 
 		  "image" => "img/gallery/as00.jpg",
 		  "date" => "10/2015",
@@ -69,7 +77,6 @@ $projectsArray = array(
 		  		"img/gallery/as01.jpg",
 		  		"img/gallery/as02.jpg"
 		  )),
-
 
 	array("title" => "Poradnia Psychologiczno-Pedagogiczna w Białogardzie", 
 		  "image" => "img/gallery/poradnia00.jpg",
