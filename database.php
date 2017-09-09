@@ -49,7 +49,7 @@ $projectsArray = array(
 	array("title" => "Poradnia Psychologiczno-Pedagogiczna w Białogardzie, wersja 2", 
 		  "image" => "img/gallery/poradnia-new00.jpg",
 		  "date" => "04/2016",
-		  "href" => "http://www.ppp-bialogard.hekko24.pl/",
+		  "href" => "http://www.ppp.powiat-bialogard.pl/",
 		  "desc" => "Strona internetowa dla placówki użyteczności publicznej. Platformia dla publikacji aktualności, szczegółów oferty i artukułów. Administracja treścią dzięki osadzeniu strony na platformie WordPress.",
 		  "fullpageimgs" => array(
 		  		"img/gallery/poradnia-new01.jpg",
